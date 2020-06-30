@@ -1,5 +1,4 @@
 module.exports = {
-    purge: [],
     theme: {
         fontFamily: {
             gotham: ['Gotham Pro', 'sans-serif']
@@ -9,7 +8,7 @@ module.exports = {
             md: '768px',
             lg: '1024px',
             xl: '1280px',
-            xxl: '1590px',
+            xxl: '1590px'
         },
         colors: {
             white: '#FFFFFF',
@@ -50,7 +49,12 @@ module.exports = {
             }
         },
         extend: {
-
+            fontSize: {
+                '8xl': '6rem'
+            },
+            spacing: {
+                '144': '36rem'
+            }
         },
     },
     variants: {},
