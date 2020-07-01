@@ -95,3 +95,42 @@
     position: absolute;
     bottom: -8rem;
 }
+
+.agree__checkbox+label {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.agree__checkbox+label:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.agree__checkbox:checked+label:before {
+    background: #FE7865;
+}
