@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./build/output.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
 </head>
 
-<body class="font-gotham">
+<body class="font-gotham antialiased">
     <nav class="container mx-auto flex items-center justify-between py-16">
         <div>
             <h1 class="text-black-400 text-xl">Beauty Store</h1>
@@ -193,7 +192,6 @@
             </div>
         </div>
     </section>
-
     <section class="flex w-11/12 ml-auto">
         <div class="bg-orange-200 w-2/5 p-24">
             <div class="w-64">
@@ -228,11 +226,147 @@
             <img src="./images/cosmetics-tools.png" alt="">
         </div>
     </section>
+    <section class="container mx-auto py-48 flex">
+        <div class="w-2/5">
+            <div class="w-64 text-black-200">
+                <h4 class="font-medium text-3xl">Blog</h4>
+                <h3 class="font-medium text-6xl leading-tight border-b-4 border-orange-200 pb-4">Popular</h3>
+                <p class="py-4">Article about indian cosmetic market. Must Read article</p>
+            </div>
+            <div class="mt-16">
+                <button class="bg-orange-200 text-white w-1/2 uppercase flex items-center justify-between hover:bg-orange-300 p-8">
+                    <span>Read all articles</span>
+                    <img src="./images/arrow-right.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="w-3/5 flex items-center pl-16">
+            <div class="w-4/6">
+                <img src="./images/cosmetics-lady.png" alt="">
+            </div>
+            <div class="w-2/6">
+                <h1 class="text-3xl leading-normal font-semibold text-black-100">The best beauty vlog that the internet has to offer</h1>
+                <div class="w-16 h-px bg-orange-200 my-8"></div>
+                <p class="text-blck-300 text-sm leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non eros leo. Duis non massa eu massa commodo sollicitudin id non velit.</p>
+                <div class="flex items-center mt-16">
+                    <img src="./images/logo.svg" alt="">
+                    <span class="ml-4">Coders gyan voice</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script type="text/javascript " src="//code.jquery.com/jquery-1.11.0.min.js "></script>
-    <script type="text/javascript " src="//code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
-    <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
-    <script src="./js/app.js "></script>
+    <section class="relative">
+        <div class="slider2">
+            <div class="slide">
+                <div class="inner__box">
+                    <div class="bg-gray-100 relative">
+                        <div class="label bg-white absolute top-0 right-0 text-xl text-black-200 py-8 px-48">New</div>
+                        <img src="./images/cosmetics-yellow-jar.png" alt="">
+                        <div class="bg-orange-200 py-4 px-6 absolute bottom-0 left-0 text-white number">1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner__box">
+                    <div class="bg-gray-100 relative">
+                        <div class="label bg-white absolute top-0 right-0 text-xl text-black-200 py-8 px-48">New</div>
+                        <img src="./images/cosmetics-yellow-jar.png" alt="">
+                        <div class="bg-orange-200 py-4 px-6 absolute bottom-0 left-0 text-white number">2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner__box">
+                    <div class="bg-gray-100 relative">
+                        <div class="label bg-white absolute top-0 right-0 text-xl text-black-200 py-8 px-48">New</div>
+                        <img src="./images/cosmetics-yellow-jar.png" alt="">
+                        <div class="bg-orange-200 py-4 px-6 absolute bottom-0 left-0 text-white number">3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner__box">
+                    <div class="bg-gray-100 relative">
+                        <div class="label bg-white absolute top-0 right-0 text-xl text-black-200 py-8 px-48">New</div>
+                        <img src="./images/cosmetics-yellow-jar.png" alt="">
+                        <div class="bg-orange-200 py-4 px-6 absolute bottom-0 left-0 text-white number">4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="inner__box">
+                    <div class="bg-gray-100 relative">
+                        <div class="label bg-white absolute top-0 right-0 text-xl text-black-200 py-8 px-48">New</div>
+                        <img src="./images/cosmetics-yellow-jar.png" alt="">
+                        <div class="bg-orange-200 py-4 px-6 absolute bottom-0 left-0 text-white number">5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider2-dots"></div>
+    </section>
+
+    <footer class="container mx-auto pt-64">
+        <section class="flex justify-between">
+            <div class="flex-1">
+                <h1 class="font-bold mb-8">Useful links</h1>
+                <div class="flex">
+                    <div class="flex flex-col w-1/2">
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Catalogue</a>
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Payment</a>
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Shipping</a>
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Features</a>
+                    </div>
+                    <div class="flex flex-col w-1/2">
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Blog</a>
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Privacy policy</a>
+                        <a class="mb-3 text-sm text-black-100 hover:text-orange-200" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <h1 class="font-bold mb-8">Contacts</h1>
+                <div class="flex">
+                    <div>
+                        <h2 class="font-bold text-sm">Moscow</h2>
+                        <span class="text-sm text-black-100">
+                            Red squere, 1
+                            Kremel <br> business
+                            Office. 17
+                        </span>
+                        <h6 class="text-orange-200 text-sm mt-4">info@codersgyan.com</h6>
+                    </div>
+                    <div class="ml-8">
+                        <h2 class="font-bold text-sm">Mumbai</h2>
+                        <span class="text-sm text-black-100">Nepeansea road, Mumbai, <br>
+                            Maharashtra 400052, India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <h1 class="font-bold mb-8">Register</h1>
+                <form action="" class="flex flex-col">
+                    <input class="border mb-6 border-orange-200 placeholder-black-100 p-2 text-sm rounded outline-none focus:shadow-outline" type="text" placeholder="Name">
+                    <input class="border mb-6 border-orange-200 placeholder-black-100 p-2 text-sm rounded outline-none focus:shadow-outline" type="email" placeholder="Email">
+                    <button class="bg-orange-200 p-2 text-sm text-white rounded hover:bg-orange-400 uppercase">Register
+                        Now</button>
+                </form>
+            </div>
+        </section>
+        <section class="border-t border-gray-100 py-6 flex justify-between items-center mt-16">
+            <div class="text-xs text-black-100">© 2020 moh azzam. All rights reserved</div>
+            <div class="flex items-center">
+                <a class="ml-12" href="https://www.facebook.com/mohammed.azzam.92372"><img src="./images/facebook.svg" alt=""></a>
+                <a class="ml-12" href="https://twitter.com/mohamme57772188"><img src="./images/twitter.svg" alt=""></a>
+                <a class="ml-12" href="https://www.instagram.com/mohammed.mojahed93/"><img src="./images/instagram.svg" alt=""></a>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
